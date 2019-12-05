@@ -10,6 +10,6 @@ class Grind extends Model
 
     public function products()
     {
-        return $this->hasMany(Product::call);
+        return $this->hasMany(Product::class);
     }
 }
