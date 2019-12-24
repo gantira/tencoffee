@@ -4,10 +4,10 @@
             <h1 class="h2">Products</h1>
             <div class="btn-toolbar mb-2 mb-md-0">
                 <div class="btn-group mr-2">
-                    <nuxt-link to="products/grinds" class="btn btn-sm btn-outline-secondary">Grind</nuxt-link>
-                    <nuxt-link to="products/sizes" class="btn btn-sm btn-outline-secondary">Size</nuxt-link>
+                    <nuxt-link to="/admin/products/grinds" class="btn btn-sm btn-outline-secondary">Grind</nuxt-link>
+                    <nuxt-link to="/admin/products/sizes" class="btn btn-sm btn-outline-secondary">Size</nuxt-link>
                 </div>
-                <nuxt-link to="products/new" class="btn btn-sm btn-outline-secondary">New Product</nuxt-link>
+                <nuxt-link to="/admin/products/new" class="btn btn-sm btn-outline-secondary">New Product</nuxt-link>
             </div>
         </div>
 

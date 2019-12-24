@@ -1,5 +1,5 @@
 export default {
-    mode: 'universal',
+    mode: 'spa',
     /*
      ** Headers of the page
      */
@@ -113,7 +113,7 @@ export default {
      ** See https://axios.nuxtjs.org/options
      */
     axios: {
-        baseURL: 'http://localhost/tencoffee/public/api'
+        baseURL: 'http://tencoffee.test/api/'
     },
     /*
      ** Build configuration

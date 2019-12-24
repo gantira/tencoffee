@@ -69,7 +69,7 @@ class ProductController extends Controller
                 'image' => Storage::disk('public')->putFile('images', request()->file('image')),
             ]);
 
-            Image::make(public_path('storage/' . $product->image))->fit(1030, 1080, null, 'center')->save();
+            Image::make(storage_path(('app/public/'. $product->image)))->fit(1030, 1080, null, 'center')->save();
         }
 
         return;

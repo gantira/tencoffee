@@ -4,6 +4,7 @@ namespace App\Http\Resources;
 
 use Illuminate\Http\Resources\Json\JsonResource;
 use App\Http\Resources\Prices as PricesResource;
+use Illuminate\Support\Facades\Storage;
 
 class Product extends JsonResource
 {
